@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle1 {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    text-align: center;
+
+  }
+  
+  .action {
+    margin: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    /*color: red;*/
+  }
+
+  .btnred {
+    background-color: red;
+  }
+
+  .btnblack {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-left: 20px;
+    border: 12px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 8px;
+  }
+  .btnblack {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    border: 15px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 8px;
+  }
+  .btnpink {
+    background-color: pink;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    border: 15px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 8px;
+  }

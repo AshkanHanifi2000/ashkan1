@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorify</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Colorify</h1>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        40% Complete (success)
+      </div>
+    </div>
+    <div class="container-fluid bg-1 text-center">
+      <a class="badge bg-primary text-wrap" href="./promise.html"><h3>Check Promise...?</h3> </a>
+    </div>
+
+    <p class="subheading">
+      With colorify we want to start
+      learning JavaScript.
+    </p>
+    <div class="circle1" id="circleID"></div>
+    <div class="action">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button class="btnred" onclick="paint('red')">Red</button>
+      <button onclick="paint('green')">Green</button>
+      <button onclick="paint('blue')">Blue</button>
+      <button class="btnblack" onclick="paint('red')">Red</button>
+      <button class="btnpink" onclick="paint('pink')">pink</button>
+    </div>
+    <div class="action">
+      <button onclick="call_rect()">Call Get Rect</button>
+      <input type="text" id="rect"/>
+    </div>
+    <div class="action">
+      <button onclick="call_circle()">Call Get Circle Area</button>
+      <span>R= </span>
+      <input type="text" id="circle"/>
+      <span>Area= </span>
+      <input type="text" id="area"/>
+    </div>
+    <div class="action">
+      <span> rect name</span>
+      <input type="text" id="rect_name" value="مستطیل1" />
+      <span> rect name</span>
+      <input type="text" id="rect_w" value="10" />
+      <span> rect name</span>
+      <input type="text" id="rect_h" value="5" />
+      <button onclick="call_rect_area()">Call POST Rect</button>
+      <input type="text" id="rect_area" />
+    </div>
+  <div>
+    <input type="text" id="cname" value="circle"/>
+    <button onclick="call_circle_name()">Call CName</button>
+    <button onclick="call_api_axios()">Call AXIOS CName</button>
+    <button onclick="call_api_axios_token()">Call AXIOS Token</button>
+  </div>
+  </div>
+</body>
+</html>

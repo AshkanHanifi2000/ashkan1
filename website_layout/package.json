@@ -1,0 +1,11 @@
+{
+  "name": "website_layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build"
+  },
+  "author": "",
+  "license": "ISC"
+}
